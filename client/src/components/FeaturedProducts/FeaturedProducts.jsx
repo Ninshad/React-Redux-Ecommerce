@@ -8,6 +8,7 @@ const FeaturedProducts = ({ type }) => {
     `/products?populate=*&[filters][type][$eq]=${type}`
   );
 
+  
   return (
     <div className="featuredProducts">
       <div className="top">
